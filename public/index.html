@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#000000">
 
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Signika" rel="stylesheet">
+  <link rel="shortcut icon" href='./img/initials.png'>
+
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Signika|Imprima" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -22,28 +24,6 @@
     You need to enable JavaScript to run this app.
   </noscript>
   <div id="root"></div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // var instance = M.Dropdown.getInstance(elem);
-      var elems = document.querySelectorAll('.dropdown-button');
-      var instances = M.Dropdown.init(elems, options);
-    });
-
-    M.AutoInit();
-
-    $(document).ready(function () {
-      $('.dropdown-button').dropdown({
-        inDuration: 30,
-        outDuration: 225,
-        constrain_width: true,
-        hover: true,
-        gutter: 0,
-        belowOrigin: false
-      })
-    })
-
-  </script>
 
 
 </body>
