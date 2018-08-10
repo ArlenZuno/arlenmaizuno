@@ -1,29 +1,34 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import M from 'materialize-css/dist/js/materialize.min.js';
 import './home.css'
-import M  from 'materialize-css/dist/js/materialize.min.js';
 
 class Home extends Component {
-  componentDidMount(){
-      var elems = document.querySelectorAll('.dropdown-button');
-      var instances = M.Dropdown.init(elems);
-    };
-  
+  componentDidMount() {
+    var elems = document.querySelectorAll('.dropdown-button');
+    var instances = M.Dropdown.init(elems);
+  };
+
   render() {
     return (
       <div className='home white-text'>
-        Hello, I am Arlen a freelance web developer from Vancouver, BC. Let's build something...
+        <p className='bio'>
+          HELLO, MY NAME IS ARLEN. <br/> 
+          I AM A WEB DEVELOPER FROM VANCOUVER. <br/><br/>
+          Would you like to build something together?<br/>
+          <span id='contact'>GET IN TOUCH.</span>
+        </p>
 
-    <a className='dropdown-trigger dropdown-button btn' data-beloworigin="true" data-target='dropdown1'>MENU</a>
+        <a id='menu' className='dropdown-trigger dropdown-button white btn' data-aboveorigin='true' data-target='dropdown1'>MENU</a>
 
         <ul id='dropdown1' className='dropdown-content'>
-          <li><a href="#!">one</a></li>
-          <li><a href="#!">two</a></li>
+          <li><Link to='/work'>WORK</Link></li>
+          <li><Link to='/project'>PROJECTS</Link></li>
+          <li><Link to='/contact'>CONTACT</Link></li>
         </ul>
 
         <p id='title' className='grey-text'>web developer</p>
-        <p id='initials' className='white-text'>
-          AMZ
-        </p>
+        <p id='initials' className='white-text'>AMZ</p>
       </div>
     )
   }
