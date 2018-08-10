@@ -14,8 +14,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 
-
-
   <title>AMZ</title>
 </head>
 
@@ -27,22 +25,23 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.dropdown-trigger');
+      // var instance = M.Dropdown.getInstance(elem);
+      var elems = document.querySelectorAll('.dropdown-button');
       var instances = M.Dropdown.init(elems, options);
-    });
-
-    $('.dropdown-button').dropdown({
-      inDuration: 300,
-      outDuration: 225,
-      constrain_width: true,
-      hover: false,
-      gutter: 0,
-      belowOrigin: false
     });
 
     M.AutoInit();
 
-
+    $(document).ready(function () {
+      $('.dropdown-button').dropdown({
+        inDuration: 30,
+        outDuration: 225,
+        constrain_width: true,
+        hover: true,
+        gutter: 0,
+        belowOrigin: false
+      })
+    })
 
   </script>
 
