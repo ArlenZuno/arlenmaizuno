@@ -13,8 +13,8 @@ class Home extends Component {
     return (
       <div className='home white-text'>
         <p className='bio'>
-          HELLO, MY NAME IS ARLEN. <br/> 
-          I AM A WEB DEVELOPER FROM VANCOUVER. <br/><br/>
+          <span id='introBio'>HELLO, MY NAME IS ARLEN. <br/> 
+          I AM A WEB DEVELOPER FROM VANCOUVER. <br/><br/></span>
           Would you like to build something together?<br/>
           <Link to='/contact' className='white-text' id='contact'>GET IN TOUCH.</Link>
         </p>
