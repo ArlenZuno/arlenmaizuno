@@ -22,9 +22,9 @@ class Home extends Component {
         <a id='menu' className='dropdown-trigger dropdown-button white btn' data-aboveorigin='true' data-target='dropdown1'>MENU</a>
 
         <ul id='dropdown1' className='dropdown-content'>
-          <li><Link to='/work'>WORK</Link></li>
-          <li><Link to='/project'>PROJECTS</Link></li>
-          <li><Link to='/contact'>CONTACT</Link></li>
+          <li><Link to='/work' className='black-text'>WORK</Link></li>
+          <li><Link to='/project' className='black-text'>PROJECTS</Link></li>
+          <li><Link to='/contact' className='black-text'>CONTACT</Link></li>
         </ul>
 
         <p id='title' className='grey-text'>web developer</p>
