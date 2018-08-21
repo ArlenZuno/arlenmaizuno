@@ -27,6 +27,14 @@ class Home extends Component {
           <li><Link to='/contact' className='black-text'>CONTACT</Link></li>
         </ul>
 
+
+        {/* <ul className="sidenav white-text" id="mobile-demo">
+          <li><Link to='/work'>WORK</Link></li>
+          <li><Link to='/project'>PROJECTS</Link></li>
+          <li><Link to='/contact'>CONTACT</Link></li>
+        </ul> */}
+
+
         <p id='title' className='grey-text'>web developer</p>
         <p id='initials' className='white-text'>AMZ</p>
       </div>
