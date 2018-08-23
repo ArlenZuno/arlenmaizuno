@@ -1,6 +1,14 @@
 img {
-  height: 7%;
-  width: 7%;
+
+  .icon {
+  width: 2%;
+  }
+
+  #skyline {
+    position:fixed;
+    bottom:0;
+    max-width: 100%;
+  }
 }
 
 #email {

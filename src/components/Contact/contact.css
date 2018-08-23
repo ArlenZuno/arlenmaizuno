@@ -1,6 +1,10 @@
-img {
-  height: 7%;
-  width: 7%; }
+img .icon {
+  width: 2%; }
+
+img #skyline {
+  position: fixed;
+  bottom: 0;
+  max-width: 100%; }
 
 #email {
   font-size: 5rem; }
