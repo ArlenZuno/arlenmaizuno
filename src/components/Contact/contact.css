@@ -1,10 +1,9 @@
-img .icon {
-  width: 2%; }
+.icon {
+  width: 4%; }
 
-img #skyline {
+#skyline {
   position: fixed;
-  bottom: 0;
-  max-width: 100%; }
+  bottom: 0; }
 
 #email {
   font-size: 5rem; }
