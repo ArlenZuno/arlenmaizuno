@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import M from 'materialize-css/dist/js/materialize.min.js';
+import './nav.css'
 
 class Nav extends Component {
   componentDidMount() {
@@ -10,7 +11,7 @@ class Nav extends Component {
 
   render() {
     return (
-      <div>
+      <div id='navBar'>
         <nav className="nav-extended black">
           <div className="nav-wrapper">
             <a href="#" data-target="mobile-demo" className="sidenav-trigger white-text"><i className="material-icons white-text">menu</i></a>
