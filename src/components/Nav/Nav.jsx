@@ -11,13 +11,13 @@ class Nav extends Component {
   render() {
     return (
       <div>
-        <nav id='navBar' className="nav-extended black">
+        <nav className="nav-extended black">
           <div className="nav-wrapper">
             <a href="#" data-target="mobile-demo" className="sidenav-trigger white-text"><i className="material-icons white-text">menu</i></a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><Link to='/' className='white-text'>HOME</Link></li>
               <li><Link to='/work' className='white-text'>WORK</Link></li>
-              <li><Link to='/project' className='white-text'>PROJECTS</Link></li>
+              <li><Link to='/project'className='white-text'>PROJECTS</Link></li>
               <li><Link to='/contact' className='white-text'>CONTACT</Link></li>
             </ul>
           </div>
