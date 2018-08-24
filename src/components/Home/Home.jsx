@@ -19,7 +19,7 @@ class Home extends Component {
           <Link to='/contact' className='white-text' id='contact'>GET IN TOUCH.</Link>
         </p>
 
-        <a id='menu' className='dropdown-trigger dropdown-button white btn' data-aboveorigin='true' data-target='dropdown1'>MENU</a>
+        <a id='menu' className='dropdown-trigger dropdown-button hide-on-med-and-down white btn' data-aboveorigin='true' data-target='dropdown1'>MENU</a>
 
         <ul id='dropdown1' className='dropdown-content'>
           <li><Link to='/work' className='black-text'>WORK</Link></li>
