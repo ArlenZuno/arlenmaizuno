@@ -17,7 +17,7 @@ class Home extends Component {
           I AM A WEB DEVELOPER FROM VANCOUVER. <br/><br/></span>
           Would you like to build something together?<br/>
           <Link to='/contact' className='white-text' id='contact'>GET IN TOUCH.</Link>
-        </p>s
+        </p>
 
         <a id='menu' className='dropdown-trigger dropdown-button hide-on-med-and-down white btn' data-aboveorigin='true' data-target='dropdown1'>MENU</a>
 
