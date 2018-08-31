@@ -11,7 +11,14 @@ class Project extends Component {
     return (
       <div className='white-text'>
         <Nav />
-        <img className="materialboxed" width="400" src="./img/debut.jpg"/>
+        <div className='container row'>
+          <div className='col6'>
+            <img className="materialboxed" width="300" src="./img/debut.jpg" />
+          </div>
+          <div className='col6'>
+            <img className='materialboxed' width='400' src='./img/invite.png' />
+          </div>
+        </div>
       </div>
     )
   }
