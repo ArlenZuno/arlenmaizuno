@@ -7,11 +7,10 @@ class Loading extends Component {
       <div>
         <Nav />
         <div className='center'>
-          <img src='./img/cat-code.gif' height='10%' className='responsive-img container' alt='umm' />
-          <br />
           <p className=' white-text'>
             page under construction..currently typing out the code..
           </p>
+          <img src='./img/cat-code.gif' width='10%' className='responsive-img container' alt='umm' />
         </div>
       </div>
     )
