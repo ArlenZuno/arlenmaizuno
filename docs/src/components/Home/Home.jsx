@@ -13,9 +13,9 @@ class Home extends Component {
     return (
       <div className='home white-text'>
         <p className='bio'>
-          <span id='introBio'>HELLO, MY NAME IS ARLEN. <br/> 
-          I AM A WEB DEVELOPER FROM VANCOUVER. <br/><br/></span>
-          Would you like to build something together?<br/>
+          <span id='introBio'>HELLO, MY NAME IS ARLEN. <br />
+            I AM A WEB DEVELOPER FROM VANCOUVER. <br /><br /></span>
+          Would you like to build something together?<br />
           <Link to='/contact' className='white-text' id='contact'>GET IN TOUCH.</Link>
         </p>
 
@@ -26,14 +26,6 @@ class Home extends Component {
           <li><Link to='/project' className='black-text'>PROJECTS</Link></li>
           <li><Link to='/contact' className='black-text'>CONTACT</Link></li>
         </ul>
-
-
-        {/* <ul className="sidenav white-text" id="mobile-demo">
-          <li><Link to='/work'>WORK</Link></li>
-          <li><Link to='/project'>PROJECTS</Link></li>
-          <li><Link to='/contact'>CONTACT</Link></li>
-        </ul> */}
-
 
         <p id='title' className='grey-text'>web developer</p>
         <p id='initials' className='white-text'>AMZ</p>
