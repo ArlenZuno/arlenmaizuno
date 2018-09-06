@@ -17,16 +17,16 @@ class Nav extends Component {
             <a href="#" data-target="mobile-demo" className="sidenav-trigger white-text"><i className="material-icons white-text">menu</i></a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><Link to='/' className='white-text'>HOME</Link></li>
-              <li><Link to='/work' className='white-text'>WORK</Link></li>
-              <li><Link to='/project'className='white-text'>PROJECTS</Link></li>
+              <li><Link to='/underconstruction' className='white-text'>WORK</Link></li>
+              <li><Link to='/underconstruction'className='white-text'>PROJECTS</Link></li>
               <li><Link to='/contact' className='white-text'>CONTACT</Link></li>
             </ul>
           </div>
         </nav>
         <ul className="sidenav white-text" id="mobile-demo">
           <li><Link to='/'>HOME</Link></li>
-          <li><Link to='/work'>WORK</Link></li>
-          <li><Link to='/project'>PROJECTS</Link></li>
+          <li><Link to='/underconstruction'>WORK</Link></li>
+          <li><Link to='/underconstruction'>PROJECTS</Link></li>
           <li><Link to='/contact'>CONTACT</Link></li>
         </ul>
       </div>
