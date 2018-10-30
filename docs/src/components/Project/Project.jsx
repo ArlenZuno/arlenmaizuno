@@ -13,10 +13,10 @@ class Project extends Component {
         <Nav />
         <div className='container row'>
           <div className='col6'>
-            <img className="materialboxed" width="300" src="./img/debut.jpg" />
+            <img className="materialboxed" data-caption="Invites created for cousin's debutant ball" width="300" src="./img/debut.jpg" />
           </div>
           <div className='col6'>
-            <img className='materialboxed' width='400' src='./img/invite.png' />
+            <img className='materialboxed' data-caption="Invites created for friend's son's birthday" width='400' src='./img/invite.png' />
           </div>
         </div>
       </div>
